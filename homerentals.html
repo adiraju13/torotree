@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: white;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Torotree</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+  <!-- Font Awesome if you need it
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  -->
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css">
+
+  <!--Replace with your tailwind.css once created-->
+
+  	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	<!-- Define your gradient here - use online tools to find a gradient matching your branding-->
+	<style>
+
+		.gradient {
+			background: linear-gradient(90deg, #EEF5F5 0%, #EEF5F5 100%);
+		}
+		.bg {
+			background-image:linear-gradient(to right, rgba(0, 0, 0, .9), rgba(0, 0, 0, .7), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url('bg.jpg');
+  			background-repeat: no-repeat;
+  			background-size: cover;
+		}
+		.title {
+			font-family: 'Playfair Display', serif;
+			font-weight: 400;
+		}
+		.hero_radius{
+			border-radius: 20px;
+		}
+		@media (max-width: 640px){
+			.hero_radius {
+    			border-radius: 0px;
+			}
+		}
+	</style>
+
+</head>
+
+<body class="leading-normal tracking-normal text-white gradient bg-white" style="font-family: 'Open Sans', sans-serif;font-weight: 300;">
+<!--Nav-->
+<nav style="z-index: 2000; background-color: #1d1d1d;"id="header" class="fixed w-full z-30 top-0 text-white">
+
+	<div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+			
+	
+		<div class="pl-4 flex items-center">
+			<a href="#"> 
+				<img src="torotree_logo.svg" style="display: inline-block;" height="28" />
+			</a>
+		</div>
+
+
+		<!--<div class="block lg:hidden pr-4">
+			<button id="nav-toggle" class="flex items-center p-1 text-orange-800 hover:text-gray-900">
+				<svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+			</button>
+		</div>-->
+
+		<div class="px-4 lg:p-0 z-20">
+			<ul class="list-reset lg:flex justify-end flex-1 items-center">
+				<!--<li class="mr-3">
+					<a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
+				</li>
+				<li class="mr-3">
+					<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
+				</li>
+				<li class="mr-3">
+					<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
+				</li>-->
+			</ul>
+			<a href="mailto:rohan@torotree.com" target="_blank">
+				<button class=" lg:mx-0 bg-white font-bold rounded-full my-1 py-3 px-10 shadow-lg" style="color:#1d1d1d;letter-spacing: 1.5px;">CONTACT</button>
+			</a>
+		</div>
+	</div>
+	
+</nav>
+
+
+<!--Hero-->
+
+
+
+
+
+<div class="bg-white" style="margin-top:100px;">
+
+	<div class="container bg px-12 py-32 mx-auto flex flex-wrap flex-col md:flex-row items-center hero_radius">
+		<!--Left Col-->
+		<div class="flex flex-col w-full md:w-2/5  justify-center items-start md:text-left">
+			<h1 class="my-4 text-5xl leading-tight title" style="color: #FFFFFF;">Let Your Employees "Getaway"</h1>
+			<!--<p class="leading-normal text-2xl mb-8">Make your purchases on an easy installment plan with the Torotree card. No credit check required. No hidden fees.</p>-->
+			<div class="mb-2 leading-7 text-base" style="color: #FFFFFF;">
+				The pandemic is causing more employee burnout. Rent a pre-vetted vacation home for your employees to recharge in. 			
+			</div>
+		
+			
+			<a href="mailto:rohan@torotree.com" target="_blank" style="z-index: 1000">
+				<button class=" lg:mx-0 bg-white font-bold rounded-full my-6 py-4 px-12 shadow-lg text-base" style="letter-spacing: 1.5px; color:#1d1d1d;">CONTACT</button>
+			</a>
+			
+		</div>
+		
+	</div>
+
+</div>
+
+
+<section class="bg-white py-8">
+	<div class="container  mx-auto m-8">
+		<div class="flex flex-wrap flex-col-reverse md:flex-row" style="align-items: center; justify-content: center;">
+			<div class="w-full md:w-1/2 p-6 mt-6">
+				<img style="display:inline-block;" src="collage.jpg"/>
+			</div>
+			<div class="w-full md:w-1/2 p-6 mt-6">
+				<h1 class="my-4 text-6xl leading-tight title" style="color: #1d1d1d;">Homes in Stunning Locations</h1>
+				<div class="mb-2 leading-7 text-base" style="color: #1d1d1d;">
+					Provide your employees with a shared vacation home to use whenever they want. Every home is affordable, furnished, clean, full of amenities, and in stunning locations.		
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="bg-white py-8">
+	<div class="container  mx-auto m-8">
+		<h1 class="my-4 text-6xl leading-tight title text-center" style="color: #1d1d1d;">We Take Care of Everything</h1>
+		
+	
+		
+		
+		<div class="flex flex-wrap flex-col md:flex-row">	
+			
+			<div class="w-full md:w-1/3 p-6 flex flex-col">
+			<div>
+				<div class="flex-wrap">
+					<img style=" width: 100%; height: auto;" src="chair.jpg"/>
+					<div class="py-6">
+						<h1 class="w-full font-bold text-xl title text-3xl" style="color: #1d1d1d; font-weight: 400;">Pre-vetted, Furnished, and Full of Amenities</h1>
+						<p class="mb-2 leading-7 text-base py-2" style="color: #1d1d1d;">
+							Homes are hand-picked and furnished. Each comes with amenities like fast WiFi, grocery delivery, and more to guarantee the highest quality stay-experience. 
+						</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="w-full md:w-1/3 p-6 flex flex-col">
+			<div>
+				<div class="flex-wrap">
+					<img style=" width: 100%; height: auto;" src="person.jpg"/>
+					<div class="py-6">
+						<h1 class="w-full font-bold text-xl title text-3xl" style="color: #1d1d1d; font-weight: 400;">Employee Booking</h1>
+						<p class="mb-2 leading-7 text-base py-2" style="color: #1d1d1d;">
+							We handle employee booking so you don't have to. Reserving time at the home is as easy as pushing a button.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="w-full md:w-1/3 p-6 flex flex-col-reverse">
+			<div>
+				<div class="flex-wrap">
+					<img style=" width: 100%; height: auto;" src="clean.jpg"/>
+					<div class="py-6">
+						<h1 class="w-full font-bold text-xl title text-3xl" style="color: #1d1d1d; font-weight: 400;">Professional Cleaning and Contactless Service</h1>
+						<p class="mb-2 leading-7 text-base py-2" style="color: #1d1d1d;">
+							Homes are professionally cleaned in between each stay and CDC-compliant to ensure safety during these times. In addition, we provide 24/7 contactless service in case anything is needed.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		</div>
+	</div>
+</section>
+
+<section class="bg-white py-8">
+	<div class="container  mx-auto m-8">
+		<h1 class="my-4 text-6xl leading-tight title px-6" style="color: #1d1d1d;">Highlights</h1>
+		
+	
+		
+		
+		<div class="flex flex-wrap flex-col md:flex-row">	
+			
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="flex-1">
+				<div class="flex flex-wrap no-underline hover:no-underline">
+					<img style="display:inline-block; height: 40px;" src="money.svg"/>
+					<div class="py-6">
+						<h1 class="w-full font-bold text-base" style="color: #1d1d1d; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px;">Affordable</h1>
+						<p class="mb-2 leading-7 text-base py-2" style="color: #1d1d1d;">
+							Renting a shared vacation home is far cheaper than providing a stipend for each employee.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="flex-1">
+				<div class="flex flex-wrap no-underline hover:no-underline">
+					<img style="display:inline-block; height: 40px;" src="clean.svg"/>
+					<div class="py-6">
+						<h1 class="w-full font-bold text-base" style="color: #1d1d1d; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px;">Clean On Arrival</h1>
+						<p class="mb-2 leading-7 text-base py-2" style="color: #1d1d1d;">
+							Homes are cleaned and CDC-compliant to keep your employees safe during these times.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="flex-1">
+				<div class="flex flex-wrap no-underline hover:no-underline">
+					<img style="display:inline-block; height: 40px;" src="furniture.svg"/>
+					<div class="py-6">
+						<h1 class="w-full font-bold text-base" style="color: #1d1d1d; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px;">Fully Furnished</h1>
+						<p class="mb-2 leading-7 text-base py-2" style="color: #1d1d1d;">
+							Homes are pre-vetted and furnished to guarantee a comfortable and relaxing experience.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="flex-1">
+				<div class="flex flex-wrap no-underline hover:no-underline">
+					<img style="display:inline-block; height: 40px;" src="driving.svg"/>
+					<div class="py-6">
+						<h1 class="w-full font-bold text-base" style="color: #1d1d1d; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px;">Within Driving Distance</h1>
+						<p class="mb-2 leading-7 text-base py-2" style="color: #1d1d1d;">
+							Homes are selected to be within driving distance of your employees.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="flex-1">
+				<div class="flex flex-wrap no-underline hover:no-underline">
+					<img style="display:inline-block; height: 40px;" src="work.svg"/>
+					<div class="py-6">
+						<h1 class="w-full font-bold text-base" style="color: #1d1d1d; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px;">Remote work friendly</h1>
+						<p class="mb-2 leading-7 text-base py-2" style="color: #1d1d1d;">
+							Get fast WiFi, quality monitors, ergonomic chairs, an adjustable desk, and anything else needed in case employees want to work.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="flex-1">
+				<div class="flex flex-wrap no-underline hover:no-underline">
+					<img style="display:inline-block; height: 40px;" src="amenities.svg"/>
+					<div class="py-6">
+						<h1 class="w-full font-bold text-base" style="color: #1d1d1d; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px;">Amenities and 24/7 Support</h1>
+						<p class="mb-2 leading-7 text-base py-2" style="color: #1d1d1d;">
+							Your employees will get groceries on arrival, local recommendations, 24/7 contactless support, and more.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		</div>
+	</div>
+</section>
+
+<section class="py-32" style="background-color: #1d1d1d;">
+	<div class="container flex flex-col w-full mx-auto m-8">
+		<h1 class="my-4 text-6xl leading-tight title text-center" style="color: #FFFFFF;">Contact Us to Learn More</h1>
+		<a href="mailto:rohan@torotree.com" class="text-center" href="https://tripetto.app/collect/VRXHZU6QQM" target="_blank" style="z-index: 1000">
+				<button class=" text-center lg:mx-0 bg-white font-bold rounded-full my-6 py-4 px-12 shadow-lg text-base" style="letter-spacing: 1.5px; color:#1d1d1d;">CONTACT</button>
+		</a>
+	</div>
+</section>
+		
+		
+		
+
+
+
+
+
+
+
+<!--Footer-->
+
+
+
+
+
+  <!-- jQuery if you need it
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  -->
+
+<!--<script>
+
+	var scrollpos = window.scrollY;
+	var header = document.getElementById("header");
+	var navcontent = document.getElementById("nav-content");
+	var svg = document.getElementById("svg");
+	var navaction = document.getElementById("navAction");
+	var brandname = document.getElementById("brandname");
+	var toToggle = document.querySelectorAll(".toggleColour");
+
+	document.addEventListener('scroll', function() {
+
+	/*Apply classes for slide in bar*/
+	scrollpos = window.scrollY;
+
+    if(scrollpos > 10){
+      header.classList.add("bg-white");
+	  navaction.classList.remove("bg-white");
+	  navaction.classList.add("gradient");
+	  navaction.classList.remove("text-gray-800");
+	  navaction.classList.add("text-white");
+	  //Use to switch toggleColour colours
+  	  for (var i = 0; i < toToggle.length; i++) {
+	     toToggle[i].classList.add("text-gray-800");
+		 toToggle[i].classList.remove("text-white");
+	  }
+	  header.classList.add("shadow");
+	  navcontent.classList.remove("bg-gray-100");
+	  navcontent.classList.add("bg-white");
+    }
+    else {
+	  header.classList.remove("bg-white");
+	  navaction.classList.remove("gradient");
+	  navaction.classList.add("bg-white");
+	  navaction.classList.remove("text-white");
+	  navaction.classList.add("text-gray-800");
+	  //Use to switch toggleColour colours
+  	  for (var i = 0; i < toToggle.length; i++) {
+	     toToggle[i].classList.add("text-white");
+		 toToggle[i].classList.remove("text-gray-800");
+	  }
+	  
+	  header.classList.remove("shadow");
+	  navcontent.classList.remove("bg-white");
+	  navcontent.classList.add("bg-gray-100");
+	  
+    }
+
+	});
+
+	
+</script>-->
+
+<script>
+	
+	
+	/*Toggle dropdown list*/
+	/*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+	
+	var navMenuDiv = document.getElementById("nav-content");
+	var navMenu = document.getElementById("nav-toggle");
+	
+	document.onclick = check;
+	function check(e){
+	  var target = (e && e.target) || (event && event.srcElement);
+	  
+	  //Nav Menu
+	  if (!checkParent(target, navMenuDiv)) {
+		// click NOT on the menu
+		if (checkParent(target, navMenu)) {
+		  // click on the link
+		  if (navMenuDiv.classList.contains("hidden")) {
+			navMenuDiv.classList.remove("hidden");
+		  } else {navMenuDiv.classList.add("hidden");}
+		} else {
+		  // click both outside link and outside menu, hide menu
+		  navMenuDiv.classList.add("hidden");
+		}
+	  }
+	  
+	}
+	function checkParent(t, elm) {
+	  while(t.parentNode) {
+		if( t == elm ) {return true;}
+		t = t.parentNode;
+	  }
+	  return false;
+	}
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2590283234633418');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=2590283234633418&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+</body>
+
+</html>
